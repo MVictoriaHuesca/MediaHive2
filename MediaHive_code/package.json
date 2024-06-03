@@ -1,4 +1,11 @@
 {
+  "homepage": "https://MVictoriaHuesca.github.io/MediaHive2",
+
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+
   "dependencies": {
     "react-router-dom": "^6.23.0"
   }
